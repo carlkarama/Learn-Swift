@@ -34,7 +34,7 @@ struct Score {
     var scoreID: Int
     var score: Int
     var mark: String {
-        "\(scoreID) \(score)"
+        "\(scoreID) \(score)"  
     }
 }
 
