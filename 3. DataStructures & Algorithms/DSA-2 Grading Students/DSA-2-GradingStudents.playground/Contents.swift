@@ -7,7 +7,6 @@ import Foundation
 
 func gradingStudents(grades: [Int]) -> [Int] {
     
-    // Write your code here
     var finalGrades = [Int]()
     
     for grade in grades {
@@ -16,13 +15,9 @@ func gradingStudents(grades: [Int]) -> [Int] {
         if ((remainder < 3) && (grade >= 38)) {
             print("Grade: \(grade), Final Grade: \(nextMultiple), Remainder: \(remainder)")
             finalGrades.append(nextMultiple)
-        }
-        
-        if remainder >= 3 {
+        } else if remainder >= 3 {
             finalGrades.append(grade)
-        }
-        
-        if grade < 38 {
+        } else if grade < 38 {
             finalGrades.append(grade)
         }
     }
@@ -31,6 +26,6 @@ func gradingStudents(grades: [Int]) -> [Int] {
 }
 
 
-var results:[Int] = [28, 44, 67, 93]
+var results:[Int] = [2, 37, 38]
 
 print(gradingStudents(grades: results))
