@@ -5,19 +5,32 @@ import UIKit
  * Functionality easier to find
  * Internal access to data since its as if they were originally there. They get access to the internal types data
  * Enables devs to manipulate data directly or in place.
+ * You can use extensions to add properties. But they must be computed properties not stored properties. Reasoning is because adding stored properties would affect the size of the data
  */
 
 /**
  * @additionalkeywords learnt - mutating (this basically means the extension function name has changed and) we can instead write trim and make it call trimmed extension method inter
  */
 
-var quote = "  The truth is rarely pure and simple  "
-let trimmed = quote.trimmingCharacters(in: .whitespacesAndNewlines)
 
 extension String {
-    mutating func trim() {
-        self = self.trimmed()
+    
+    /// computed property to separate array of lyrics into new lines. We can later use the lines to
+    /// calculate different operations.
+    var lines: [String] {
+        self.components(separatedBy: .newlines)
     }
 }
 
-quote.trim()
+let lyrics = """
+Everyday I spend my time
+Drinking wine
+Feeling fine
+Waiting here to find the signs
+That I can understand
+Yes I am
+"""
+
+
+print(lyrics.lines.count)
+
