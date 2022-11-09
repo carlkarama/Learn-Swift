@@ -4,16 +4,4 @@
 *.xcuserstate
 *.xcuserstate
 *.plist
-1. Intro/0. Lexical Structure/.DS_Store
-1. Intro/.DS_Store
-*.xctimeline
-1. Intro/1. Hello World/.DS_Store
-*.xcplayground
-*.xcworkspacedata
-1. Intro/HelloWorld.playground/playground.xcworkspace/contents.xcworkspacedata
-*.xcworkspacedata
-*.xcuserstate
-*.xcplayground
-*.xcworkspacedata
-*.xcuserstate
-*.xctimeline
+*.DS_Store
