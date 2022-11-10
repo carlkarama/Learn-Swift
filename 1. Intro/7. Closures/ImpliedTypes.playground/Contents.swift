@@ -19,9 +19,14 @@ public func search(song track: String) -> Int {
 
 // create a variable that stores the letter we'll use to search through our song list
 
-var songStartsWith = "Y"
+var track = "Ye vs The People"
 
 // create a variable that can store the function
+
+let foundSong = search(song: track)
+
+//
+let add: (Int, Int) -> Int = { $0 + $1 }
 
 
 // remove function name that you are passing in

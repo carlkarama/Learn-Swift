@@ -9,6 +9,7 @@ import Foundation
  */
 
 //Anonymous Function example
+
 let sayHello = {
     print("Hello closure")
 }
