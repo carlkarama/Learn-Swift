@@ -16,19 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lp9-z0-3Zq">
-                                <rect key="frame" x="20" y="79" width="353" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cW-ol-bmg">
-                                <rect key="frame" x="30" y="133" width="333" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Click Here"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yM-9S-l8Z">
-                                <rect key="frame" x="157" y="416" width="79" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Login with Google" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-Vh-sMe">
+                                <rect key="frame" x="127" y="415.66666666666669" width="137" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,12 +26,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5cW-ol-bmg" secondAttribute="trailing" constant="30" id="9oo-9r-8O2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lp9-z0-3Zq" secondAttribute="trailing" constant="20" id="S2S-QY-HIE"/>
-                            <constraint firstItem="lp9-z0-3Zq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="jHE-zJ-Bjg"/>
-                            <constraint firstItem="5cW-ol-bmg" firstAttribute="top" secondItem="lp9-z0-3Zq" secondAttribute="bottom" constant="20" id="n9i-n2-7Nv"/>
-                            <constraint firstItem="lp9-z0-3Zq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="w0q-qY-ohG"/>
-                            <constraint firstItem="5cW-ol-bmg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="wfK-jP-Kif"/>
+                            <constraint firstItem="IuY-Vh-sMe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CI7-G0-bUz"/>
+                            <constraint firstItem="IuY-Vh-sMe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rqv-ta-sKC"/>
                         </constraints>
                     </view>
                 </viewController>
